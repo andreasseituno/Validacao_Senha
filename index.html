@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senha_segura</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="Imagens/icone.ico" type="image/x-icon" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Validação de Senha 2.0</h1>
+      <p>
+        Descubra por meio deste site o quão segura é a sua senha, e também
+        quanto tempo demora para o computador descobrir ela
+      </p>
+    </header>
+    <main>
+      <p>
+        Essa versão se trata de um meio mais simplificado, digite somente
+        números.
+      </p>
+      <p>
+        Recomendamos <strong>seriamente</strong> que não passe dos 8 caracteres,
+        mas sinta-se a vontade para digitar até 10 números. <br />
+        Após terminar o processo, aguarde até o site terminar de responder.
+      </p>
+      <label>Digite sua senha aqui</label>
+      <input
+        type="text"
+        name="senha"
+        id="senha"
+        maxlength="10"
+        autocomplete="off"
+      />
+
+      <div id="container">
+        <input
+          type="button"
+          value="Confirmar"
+          id="botao"
+          onwaiting=""
+          onclick="botaozar()"
+        />
+      </div>
+      <p id="mensagem">
+        Hmm, algo deu errado, parece que o seu site perdeu a conexão
+      </p>
+    </main>
+    <footer>
+      <p>
+        Realizado inteiramente por
+        <a href="https://github.com/andreasseituno"> &copy; André Asseituno</a>
+      </p>
+    </footer>
+  </body>
+</html>
